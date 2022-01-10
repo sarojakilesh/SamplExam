@@ -16,7 +16,7 @@ import java.util.List;
 		List<Student3> list = Arrays.asList(student1, student2, student3, student4, student5, student6);
 		StudentsIDCompare sid = new StudentsIDCompare();
 		Collections.sort(list, sid);
-		System.out.println(list);
+		System.out.println(list + " f h");
 //		StudentNameSort  nameSort = new StudentNameSort();
 //		Collections.sort(list,nameSort );
 //		System.out.println(list);

@@ -11,7 +11,8 @@ public class VolatileMain {
 	for(int i = 0; i < noOfThreads; ++i)  
 	threads[i].start();                 //starts all reader threads  
 	for(int i = 0; i < noOfThreads; ++i)  
-	threads[i].join();                  //wait for all threads  
+	threads[i].join();   //wait for all threads
+	System.out.println(threads);
 	}  
 	}  
 
